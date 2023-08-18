@@ -27,11 +27,16 @@ function Intro() {
 function SkillList() {
   return (
     <div>
-      <Skill />
+      <Skill skill="React" emoj="🇳🇱🎏" />
     </div>
   );
 }
 
-function Skill() {
-  return <div className="">Use React</div>;
+function Skill(props) {
+  return (
+    <div className="">
+      <p> {props.skill}</p>
+      <p> {props.emoj}</p>
+    </div>
+  );
 }
