@@ -28,6 +28,7 @@ function SkillList() {
   return (
     <div>
       <Skill skill="React" emoj="🇳🇱🎏" />
+      <Skill skill="React+HTML" emoj="🇳🇱🎏" />
     </div>
   );
 }
